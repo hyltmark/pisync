@@ -1,0 +1,85 @@
+{
+  "init": {    
+    "values": [],
+    "description": "Init project. Execute in project path",
+    "text": {
+      "error": "Watch failed!",
+      "success": "Watch succeeded!"      
+    }
+  },
+  "watch": {
+    "values": [],
+    "description": "Upload project. Start project in shell. Watch file changes and upload them to remote",
+    "text": {
+      "error": "Watch failed!",
+      "success": "Watch succeeded!",
+      "start": "Start file surveillance 0__0 "
+    },    
+     "commandGroups": [
+       {
+         "name": "upload",
+         "value": ""
+       },       
+       {
+         "name": "watch",
+         "value": "[value]" 
+       }       
+     ]
+  },
+  "upload": {
+    "values": [],
+    "description": "Upload project",
+    "text": {
+      "error": "Upload failed!",
+      "success": "Upload succeeded!"      
+    },
+     "commandGroups": [
+        {
+         "name": "upload",
+         "value": "[value]" 
+       } 
+     ]
+  },
+  "start": {
+    "values": ["shell", "background"],
+    "description": "Upload project. Start project. Default: shell",
+    "text": {
+      "error": "Start failed!",
+      "success": "Start succeeded!"      
+    },
+     "commandGroups": [
+        {
+         "name": "start",
+         "value": "[value]" 
+       } 
+     ]
+  },
+  "stop": {
+    "values": ["shell", "background"],
+    "description": "Stop project",
+    "text": {
+      "error": "Stop failed!",
+      "success": "Stop succeeded!"      
+    },
+     "commandGroups": [
+        {
+         "name": "stop",
+         "value": "[value]" 
+       } 
+     ]
+  },    
+  "autostart": {
+    "values": [],
+    "description": "Upload project. Add it to autostart on boot. Start in background. Not fully tested yet!",
+    "text": {
+      "error": "Autostart failed!",
+      "success": "Autostart succeeded!"      
+    },
+     "commandGroups": [
+        {
+         "name": "autostart",
+         "value": "[value]" 
+       } 
+     ]
+  }  
+}

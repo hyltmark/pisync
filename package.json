@@ -1,0 +1,31 @@
+{
+  "name": "PiSync",
+  "version": "0.5.0",
+  "description": "Control project on remote from host computer.",
+  "main": "app.js",
+  "author": "Ulf Hyltmark <ulf@hyltmark.com>",
+  "directories": {
+    "bin": "./lib"
+  },
+  "preferGlobal": "true",
+  "dependencies": {
+    "async": "^1.4.2",
+    "colour": "^0.7.1",
+    "columnify": "^1.5.2",
+    "fstream": "^1.0.8",
+    "jsonfile": "^2.2.3",
+    "lodash": "^3.10.1",
+    "minimist": "^1.2.0",
+    "moment": "^2.10.6",
+    "node-notifier": "^4.3.1",
+    "node-watch": "^0.3.4",
+    "prompt": "^0.2.14",
+    "shell-escape": "^0.2.0",
+    "ssh2": "^0.4.11",
+    "tar-fs": "^1.8.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT"
+}
