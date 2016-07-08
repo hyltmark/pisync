@@ -11,7 +11,7 @@
   "bin": {
     "pis": "bin/pisync"
   },
-  "main": "pisync.js",
+  "main": "lib/pisync.js",
   "directories": {
     "bin": "./lib"
   },
