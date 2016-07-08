@@ -1,13 +1,20 @@
 {
-  "name": "PiSync",
+  "name": "pisync",
   "version": "0.5.0",
   "description": "Control project on remote from host computer.",
-  "main": "app.js",
+  "license": "MIT",
   "author": "Ulf Hyltmark <ulf@hyltmark.com>",
+  "repository": "hyltmark/pisync",
+  "engines": {
+      "node": ">=0.10.0"
+    },
+  "bin": {
+    "pis": "bin/pisync"
+  },
+  "main": "pisync.js",
   "directories": {
     "bin": "./lib"
   },
-  "preferGlobal": "true",
   "dependencies": {
     "async": "^1.4.2",
     "colour": "^0.7.1",
@@ -24,8 +31,11 @@
     "ssh2": "^0.4.11",
     "tar-fs": "^1.8.1"
   },
+  "files": [
+    "lib",
+    "bin"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "license": "MIT"
+  }
 }

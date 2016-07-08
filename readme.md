@@ -1,3 +1,9 @@
+
+Unfished codebase and this application is not working yet.
+
+
+
+
 CAUTION, USE AT YOUR OWN RISK
 This application will execute shell commands on your remote machine. 
 Altough they have been tested and working on my Raspberry PI.
